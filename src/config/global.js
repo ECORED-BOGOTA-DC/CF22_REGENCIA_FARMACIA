@@ -1,19 +1,12 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Procesos de elaboración y control de calidad de magistrales no estériles',
+    descripcionCurso:
+      'Este componente formativo abarca temas relacionados con los requisitos y elementos técnicos necesarios para los procesos de elaboración y control de calidad de las preparaciones magistrales no estériles.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -31,28 +24,57 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La responsabilidad del preparador',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elementos técnicos de elaboración según forma farmacéutica',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estabilidad de las preparaciones magistrales no estériles',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Envase primario',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Criterios de estabilidad y determinación de la fecha límite de uso',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Control de calidad de preparaciones magistrales no estériles',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Métodos de ensayo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Validación de los métodos de ensayo',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo:
+              'Ensayos según formas farmacéuticas de los preparados magistrales',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -84,11 +106,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -102,31 +119,199 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'La responsabilidad del preparador',
+      referencia:
+        'United States Pharmacopeial Convention, I. (2008). <em>USP 30. Farmacopea de los Estados Unidos de América.</em>',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo1_CF022_Farmacopea_de_los_Estados_Unidos_de_América.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Elementos técnicos de elaboración según forma farmacéutica',
+      referencia:
+        'López García, B., Roig, O. y García Rebollar, C.A. (2015). <em>Ungüentos, pomadas, cremas, geles y pastas: ¿es todo lo mismo?</em>',
+      tipo: 'PDF',
+      link:
+        'https://fapap.es/files/639-1294-RUTA/FAPAP_4_2015_Unguentos_pomadas.pdf',
+    },
+    {
+      tema: 'Control de calidad de preparaciones magistrales no estériles',
+      referencia:
+        'Resolución 444 de 2008. [Ministerio de la protección social]. Por la cual se adopta el Instrumento de Verificación de Cumplimiento de Buenas Prácticas de Elaboración de preparaciones magistrales y se dictan otras disposiciones. 12 de febrero de 2008.',
+      tipo: 'Resolución',
+      descarga: '/downloads/Anexo5_CF022_Resolución_444_de_2008.pdf',
+    },
+    {
+      tema: 'Control de calidad de preparaciones magistrales no estériles',
+      referencia:
+        'Red de autoridades de medicamentos de Iberoamérica. (2016). <em>Guía de buenas prácticas de elaboración y control de calidad de preparaciones magistrales y oficinales.</em>',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo6_CF022_Guia_de_buenas_practicas_elaboracion_control_calidad_preparaciones_magistrales_oficinales.pdf',
+    },
+    {
+      tema: 'Control de calidad de preparaciones magistrales no estériles',
+      referencia:
+        'Correa, O. de J. (s.f.). <em>Preparados magistrales y oficinales no estériles. Universidad de Antioquia.</em>',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo7_CF022_Magistrales_no_esteriles.pdf',
+    },
+    {
+      tema: 'Control de calidad de preparaciones magistrales no estériles',
+      referencia:
+        'Resolución 1403 de 2007. [Ministerio de la protección social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras Disposiciones. 14 de mayo de 2007.',
+      tipo: 'Resolución',
+      descarga: '/downloads/Anexo4_CF022_Resolución_1403_de_2007.pdf',
+    },
+    {
+      tema: 'Control de calidad de preparaciones magistrales no estériles',
+      referencia:
+        'Decreto 1737 de 2005. [Ministerio de la protección social]. Por el cual se reglamenta la preparación, distribución, dispensación, comercialización, etiquetado, rotulado y empaque de los medicamentos homeopático magistrales y oficinales y se dictan otras disposiciones. Mayo 31 de 2005.',
+      tipo: 'Decreto',
+      descarga: '/downloads/Anexo8_CF022_Decreto_1737_2005.pdf',
+    },
+    {
+      tema: 'Requisitos producción de preparaciones magistrales no estériles',
+      referencia:
+        'Decreto 0780 de 2016. [Ministerio de salud y protección social]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. 6 de mayo de 2016.',
+      tipo: 'Decreto',
+      descarga: '/downloads/Anexo3_CF022_Decreto_0780_de_2016.pdf',
+    },
+    {
+      tema: 'Ensayos según formas farmacéuticas de los preparados magistrales',
+      referencia:
+        'Fernández, E. (2003). Control de calidad fórmulas magistrales dermatológicas. Revista farmacia profesional, vol. 17, pág. 70-75.',
+      tipo: 'Documento',
+      descarga:
+        '/downloads/Anexo2_CF022_Control_de_calidad_magistrales_dermatológicos.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Buenas prácticas de elaboración magistral',
+      significado:
+        'conjunto de normas, procesos y procedimientos de carácter técnico que aseguran la correcta elaboración y el control de calidad de los medicamentos magistrales y los preparados oficinales.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Buenas prácticas de manufactura',
+      significado:
+        'son las normas, procesos y procedimientos de carácter técnico que aseguran la calidad de los medicamentos, los cosméticos y las preparaciones farmacéuticas a base de recursos naturales.',
+    },
+    {
+      termino: 'Controles en proceso',
+      significado:
+        'verificaciones que se realizan con el objetivo de comprobar que durante las etapas de ejecución y producción todo se encuentra bajo condiciones controladas.',
+    },
+    {
+      termino: 'Droga (O.M.S)',
+      significado:
+        'el nombre de droga resulta aplicable a toda sustancia terapéutica o no, que introducida al cuerpo por medio de los mecanismos clásicos (inhalación, ingestión, fricción, administración parenteral, endovenosa) de administración, es capaz de actuar sobre el sistema nervioso central del individuo hasta generar en el una alteración física e intelectual, la experimentación de nuevas sensaciones o la modificación de su estado psíquico.',
+    },
+    {
+      termino: 'Droga blanca',
+      significado:
+        'es la materia prima para preparar las fórmulas magistrales, tales como: aceite de almendras, aceite de manzanilla, azufre, glicerina pura, ácido Bórico, bórax, bicarbonato de sodio, entre otros. Este tipo de productos no requiere registro INVIMA para su comercialización.',
+    },
+    {
+      termino: 'Excipiente',
+      significado:
+        'producto más o menos inerte que determina la consistencia, forma o volumen de las preparaciones farmacéuticas.',
+    },
+    {
+      termino: 'Farmacotecnia',
+      significado:
+        'es una ciencia que estudia las distintas transformaciones a las que deben ser sometidas las materias primas con el fin de darles una forma farmacéutica con la cual se facilite su administración a los seres vivos según una prescripción médica generada por un médico, veterinario u odontólogo o por el resultado de investigaciones clínicas.',
+    },
+    {
+      termino: 'Fórmula magistral tipificada',
+      significado: 'aquella fórmula magistral definida en un formulario.',
+    },
+    {
+      termino: 'Garantía de la calidad',
+      significado:
+        'es un concepto amplio que cubre todos los aspectos que individual o colectivamente influyen en la calidad de un producto. Comprende la totalidad de las gestiones llevadas a cabo con el objeto de asegurar que los productos elaborados en la oficina de farmacia o servicio de farmacia hospitalario son de la calidad requerida para su uso.',
+    },
+    {
+      termino: 'Monografía de preparado farmacéutico',
+      significado:
+        'documento que describe, detalladamente el método de elaboración, especificaciones, propiedades farmacológicas, control de calidad, condiciones de almacenamiento y requerimientos en el etiquetado del preparado farmacéutico.',
+    },
+    {
+      termino: 'Preparación magistral',
+      significado:
+        'es la atención farmacéutica que se hace por parte del Químico Farmacéutico una o un grupo de personas en especial, teniendo en cuanta su perfil fármaco terapéutico y son de distribución inmediata.',
+    },
+    {
+      termino: 'Preparado magistral',
+      significado:
+        'es el preparado o producto farmacéutico para atender una prescripción médica, de un paciente individual, que requiere de algún tipo de intervención técnica de variada complejidad.',
+    },
+    {
+      termino: 'Preparación magistral no estéril',
+      significado:
+        'es una preparación farmacéutica que se puede formular y elaborar en condiciones ambientales controladas, pero no estériles.',
+    },
+    {
+      termino: 'Preparación o preparado oficinal',
+      significado:
+        'es el medicamento destinado a su dispensación directa a los pacientes atendidos por las oficinas de farmacia o servicios de farmacia hospitalarios, preparado por un farmacéutico o químico farmacéutico o bajo su dirección, descrito en un formulario oficial, preparado según las buenas prácticas de elaboración y control de calidad establecidas al efecto y con la debida información al paciente.',
+    },
+    {
+      termino: 'Principio activo',
+      significado:
+        'es todo compuesto biológicamente activo que se extrae de la droga de un ser vivo utilizado por sus propiedades terapéuticas y que se comercializa sin alterar su estructura química.',
+    },
+    {
+      termino: 'Proceso',
+      significado:
+        'conjunto de actividades que tienen relación entre sí o que interactúan para transformar elementos de entrada en elementos de salida.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Decreto 0780 de 2016. [Ministerio de salud y protección social]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. 6 de mayo de 2016.',
+      link: '',
+    },
+    {
+      referencia:
+        'Farmacopea argentina (Séptima edición). Buenos Aires, 12 de junio de 2003.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fernández, E. (2003) Control de calidad fórmulas magistrales dermatológicas. Revista farmacia profesional, vol. 17, pág. 70-75',
+      link:
+        'https://www.elsevier.es/es-revista-farmacia-profesional-3-articulo-control-calidad-13044494',
+    },
+    {
+      referencia:
+        'Gómez Betancurt, S. (2004). Manual de Laboratorio de Farmacia Magistral. Universidad de Antioquia. Facultad de Química Farmacéutica. Tecnología en Regencia de Farmacia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pharmaceutical Compounding - Nonsterile Preparations; USP42-NF37.',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 1403 de 2007. [Ministerio de la protección social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras Disposiciones. Remington Farmacia (T. II) (20ª ED.) de Gennaro, Alfonso R., Editorial Médica Panamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 444 del 2008. [Ministerio de la protección social]. Por la cual se adopta el instrumento de verificación de cumplimiento de Buenas Prácticas de Elaboración de preparaciones magistrales y se dictan otras disposiciones. Febrero 12 de 2008.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rosales, Z. JM y Muñoz, B. JC. (2001). Formulación magistral en atención primaria. Medicina de Familia. Vol. 2, N.º 1.',
+      link: '',
+    },
+    {
+      referencia:
+        'United States Pharmacopeial Convention, I. (2008). USP 30. Farmacopea de los Estados Unidos de América.',
       link: '',
     },
   ],
@@ -136,14 +321,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Nombre completo',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -153,8 +337,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -163,27 +346,18 @@ export default {
       autores: [
         {
           nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          cargo: 'Diseñador web',
+          centro: 'Nombre centro de formación',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Nombre centro de formación',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -191,22 +365,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Nombre validador',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Nombre centro formación',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Nombre validador',
+          cargo: 'Validación de contenidos accesibles',
+          centro: 'Nombre centro formación',
         },
       ],
     },
