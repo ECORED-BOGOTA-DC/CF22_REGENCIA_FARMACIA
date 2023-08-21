@@ -66,7 +66,7 @@
     .cont_2_2
       .pt-5
         h4.pt-5(data-aos="fade-up") Emulsiones, soluciones y suspensiones
-        p.mt-4(data-aos="fade-up") Para la preparación de estas formas farmacéuticas líquidas, se debe preparar el producto con un exceso del 2% a 3% debido a que pueden haber pérdidas o adhesión de estas a los equipos que se utilicen para fabricación. Se deben aplicar las siguientes prácticas y precauciones en el momento de la elaboración de estas formas farmacéuticas líquidas:
+        p.mt-4(data-aos="fade-up") Para la preparación de estas formas farmacéuticas líquidas, se debe lograr el producto con un exceso del 2% a 3% debido a que pueden haber pérdidas o adhesión de estas a los equipos que se utilicen para fabricación. Se deben aplicar las siguientes prácticas y precauciones en el momento de la elaboración de estas formas farmacéuticas líquidas:
 
         .row.mt-5
           .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")

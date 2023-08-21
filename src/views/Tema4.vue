@@ -62,7 +62,7 @@
       .row
         .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
           h4(data-aos="fade-right") Análisis del producto terminado 
-          p.mt-4(data-aos="fade-right") El producto farmacéutico en su etapa de semi elaboración, pasa por un proceso de acondicionamiento, en el que se llevan a cabo operaciones como el llenado y el etiquetado, los cuales son de vital importancia para el proceso transformación un producto semielaborado o a granel en un #[strong producto farmacéutico terminado]. Los productos terminados solo se podrán comercializar una vez sean aprobados. Dicha aprobación es un requisito que se establece cuando los resultados de los análisis realizados cumplan con las especificaciones que se establecieron, para que puedan ser distribuidos y finalmente dispensados al paciente.
+          p.mt-4(data-aos="fade-right") El producto farmacéutico en su etapa de semi elaboración, pasa por un proceso de acondicionamiento, en el que se llevan a cabo operaciones como el llenado y el etiquetado, los cuales son de vital importancia para el proceso transformación de un producto semielaborado o a granel, en un #[strong producto farmacéutico terminado]. Los productos terminados solo se podrán comercializar una vez sean aprobados. Dicha aprobación es un requisito que se establece cuando los resultados de los análisis realizados cumplan con las especificaciones que se establecieron, para que puedan ser distribuidos y finalmente dispensados al paciente.
         .col-lg-1
         .col-lg-3
           figure.text-center
@@ -110,7 +110,7 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | La prueba de disolución. 
     
-    p.mt-5(data-aos="fade-up") Estos son los ensayos fisicoquímicos más importantes realizados a los productos farmacéuticos, porque se busca determinar que la cantidad del principio activo en la adecuada, el producto se disuelve correctamente, lo que garantiza su adecuada absorción y que haya una uniformidad en la dosificación. Sin embargo, no son los únicos que se aplican en las distintas formas farmacéuticas de los preparados magistrales. 
+    p.mt-5(data-aos="fade-up") Estos son los ensayos fisicoquímicos más importantes realizados a los productos farmacéuticos, porque se busca determinar que la cantidad del principio activo es el apropiado, el producto se disuelve correctamente, lo que garantiza su adecuada absorción y que haya una uniformidad en la dosificación. Sin embargo, no son los únicos que se aplican en las distintas formas farmacéuticas de los preparados magistrales. 
     p.mt-4(data-aos="fade-up") La calidad de un preparado magistral no estéril puede tener ciertas desviaciones con respecto a los estándares requeridos. Cuando se lleva a cabo el control de calidad de estos productos, es de vital importancia que se aseguren los siguientes aspectos:
 
     .row.mt-5
@@ -127,7 +127,7 @@
         .tarjeta-numerada.color-acento-contenido.p-5.d-flex.align-items-center(data-aos="fade-up" style="height:100%;")
           .tarjeta-numerada__numero
             .h2(style="color:#12263F;") 2
-          p Que los métodos y los reactivos utilizado y están definidos en la farmacopea se utilicen de manera adecuada.
+          p Que los métodos y los reactivos utilizados y están definidos en la farmacopea se utilicen de manera adecuada.
     
     .col-lg-8.mt-5.m-auto
       .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
@@ -162,20 +162,20 @@
       .py-3.py-md-4(titulo="Linealidad")
         .row
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
-            p Esta característica consiste determinar si los resultados tienen una relación directa con la concentración del principio activo en la muestra, dentro de un rango establecido. Se recomienda estudiar la linealidad en todos los métodos donde se cuantifique el principio activo como:
+            p Esta característica consiste determinar si los resultados tienen una relación directa con la concentración del principio activo en la muestra, dentro de un rango establecido. Se recomienda estudiar la linealidad en todos los métodos donde:
             ul.fa-ul.mb-0.mt-3
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | Cuantificación del principio activo.
+                | Se cuantifique el principio activo.
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | Uniformidad de contenido del principio activo.
+                | Se logre uniformidad de contenido del principio activo.
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                |  Rangos de disolución. 
+                |  Se determinen rangos de disolución.
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | Cuantificación de las impurezas presentes en el producto.
+                | Se cuantifiquen de las impurezas presentes en el producto.
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema4/12.svg', alt='Texto que describa la imagen')
@@ -288,7 +288,7 @@
               img(src='@/assets/curso/tema4/21.png', alt='Texto que describa la imagen')
           .col-md-6(style="place-self:center;")
             h5 Viscocidad
-            p.mt-4 Los preparados magistrales cuya consistencia sea viscosa, deben conservar dicha forma farmacéutica, ya que es un indicativo de la conservación de la estabilidad y facilita su aplicación.
+            p.mt-4 Los preparados magistrales cuya consistencia sea viscosa, deben mantener dicha forma farmacéutica, ya que es un indicativo de la conservación de la estabilidad y facilita su aplicación.
         .row(titulo="Valoración")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
@@ -342,7 +342,7 @@
         tbody
           tr
             td.p-4.text-center(style="border:0;border-right:1px #E1E1E1 solid;background-color:#FAFAFA;")
-              h5(style="transform: rotate(-90deg)") Liquidas
+              h5(style="transform: rotate(-90deg)") Líquidas
             td.p-4.text-center(style="border:0;border-right:1px #E1E1E1 solid;") Emulsiones, suspensiones y jarabes.
             td.p-4(style="border:0;") 
               ul.fa-ul.mb-0
