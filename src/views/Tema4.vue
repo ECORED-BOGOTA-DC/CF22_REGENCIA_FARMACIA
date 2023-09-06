@@ -162,7 +162,7 @@
       .py-3.py-md-4(titulo="Linealidad")
         .row
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
-            p Esta característica consiste determinar si los resultados tienen una relación directa con la concentración del principio activo en la muestra, dentro de un rango establecido. Se recomienda estudiar la linealidad en todos los métodos donde:
+            p Esta característica consiste en determinar si los resultados tienen una relación directa con la concentración del principio activo en la muestra, dentro de un rango establecido. Se recomienda estudiar la linealidad en todos los métodos donde:
             ul.fa-ul.mb-0.mt-3
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
