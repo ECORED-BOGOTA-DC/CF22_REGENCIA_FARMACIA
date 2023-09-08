@@ -12,7 +12,7 @@
       .row
         .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/intro1.svg" data-aos="fade-right")
+            img(src="@/assets/curso/intro1.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-7(style="place-self:center;")
           p(data-aos="fade-left") Los productos farmacéuticos conocidos como preparaciones magistrales son una parte importante del sector farmacéutico y es fundamental para brindarles a los usuarios una correcta atención médica. Con este contenido relacionado con la producción y el control de calidad de las preparaciones magistrales tópicas no estériles, se busca ayudar a definir qué constituye las buenas prácticas de preparaciones magistrales y proporcionar información general al aprendiz para que obtenga conocimientos en dicha disciplina.
           p.mt-4.mb-0(data-aos="fade-left") Las preparaciones magistrales se diferencian de la fabricación de medicamentos, la cual se basa en las B.P.F. (Buenas Prácticas de Fabricación). Algunos de los aspectos que las diferencian son:
@@ -33,7 +33,7 @@
         p.mt-4(data-aos="fade-right") La responsabilidad del profesional que realice la preparación de las fórmulas magistrales es que los parámetros relacionados con el contenido, la calidad, porcentaje de pureza, correcto envasado y etiquetado, según lo dispuesto por las buenas prácticas de preparación magistral, se cumplan a cabalidad.
       .col-lg-6(style="place-self:center;")
         figure
-          img(src="@/assets/curso/intro2.svg" data-aos="fade-left")
+          img(src="@/assets/curso/intro2.svg" data-aos="fade-left" alt="Imagen decorativa")
 
 
 

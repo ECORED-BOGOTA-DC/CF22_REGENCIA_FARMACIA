@@ -12,7 +12,7 @@
         .row.m-0.align-items-center.justify-content-between
           .col-lg-3.mb-4.mb-lg-0
             figure.text-center
-              img(src="@/assets/curso/tema3/1.svg" data-aos="zoom-in" style="display:inline;max-width:150px;")
+              img(src="@/assets/curso/tema3/1.svg" data-aos="zoom-in" style="display:inline;max-width:150px;" alt="Imagen decorativa")
           .col-lg-9
             .bloque-texto-a__texto.p-5
               p.mb-0 La estabilidad es la conservación, durante el tiempo en que el producto esté almacenado y utilizado, es decir, que tenga las mismas propiedades y características que tenía cuando se preparó.
@@ -21,7 +21,7 @@
       .row
         .col-lg-8.mb-4.mb-lg-0
           figure.text-center
-            img(src="@/assets/curso/tema3/2.png" data-aos="fade-right")
+            img(src="@/assets/curso/tema3/2.png" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-4(style="place-self:center;position:relative;")
           .cont_responsive2.p-4.bg-white(style="border-radius:20px 20px 20px 0px;left:-90px;box-shadow:0px 0px 20px rgba(0,0,0,.3)" data-aos="fade-left")
             p El profesional que realice la preparación debe evitar la utilización de ingredientes o condiciones de procesamiento que puedan ocasionar que los preparados se conviertan en productos tóxicos o ineficaces. Este debe tener un profundo conocimiento en lo relacionado con las reacciones químicas de degradación de los medicamentos.
@@ -37,7 +37,7 @@
         .row
           .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema3/3.png" data-aos="fade-right" style="display:inline;max-width:450px;")
+              img(src="@/assets/curso/tema3/3.png" data-aos="fade-right" style="display:inline;max-width:450px;" alt="Imagen decorativa")
           .col-lg-9(style="place-self:center;")
             p(data-aos="fade-left") Se requieren envases que cumplan con las normas USP. Utilizar un envase que haya sido seleccionado según las propiedades fisicoquímicas de la preparación magistral. Tener presente la interacción envase-fármaco siempre que se trate de sustancias tales como: compuestos fenólicos y materiales con propiedades de absorción y adsorción (por ejemplo, el polipropileno y proteínas).
             p.mt-4(data-aos="fade-left") A continuación, se podrán observar los diferentes tipos de envases primarios utilizados según la norma farmacéutica:
@@ -47,7 +47,7 @@
         .row(titulo="VIDRIO")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/5.png')
+              img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong vidrio] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -64,7 +64,7 @@
         .row(titulo="PLÁSTICO")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/6.png')
+              img(src='@/assets/curso/tema3/6.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong plástico] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -93,7 +93,7 @@
         .row(titulo="METALES")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/7.png')
+              img(src='@/assets/curso/tema3/7.png' alt="Imagen decorativa")
           .col-md-6
             p Las características de los #[strong metales] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -107,13 +107,13 @@
         .row(titulo="COMPUESTOS")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/8.png')
+              img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
           .col-md-6
             p Los #[strong materiales compuestos] están formados por diferentes elementos, en la mayoría de los casos de aluminio y varios tipos de plásticos: PVC, polietileno, etc. Su uso es más enfocado en comprimidos y medicamentos de administración vía oral o supositorios.
         .row(titulo="P.E.T.")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/8.png')
+              img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong polietileno (PET)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -139,7 +139,7 @@
         .row(titulo="P.E.A.D.")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/9.png')
+              img(src='@/assets/curso/tema3/9.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong polietileno de alta densidad (PEAD)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -159,7 +159,7 @@
         .row(titulo="P.E.B.D.")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/10.png')
+              img(src='@/assets/curso/tema3/10.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong polietileno de baja densidad (PEBD)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -182,7 +182,7 @@
         .row(titulo="P.S.")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/11.png')
+              img(src='@/assets/curso/tema3/11.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong poliestireno (PS)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -202,7 +202,7 @@
         .row(titulo="P.V.C.")
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema3/12.png')
+              img(src='@/assets/curso/tema3/12.png' alt="Imagen decorativa")
           .col-md-6
             p Las características del #[strong policloruro de vinilo (PVC)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
@@ -249,13 +249,13 @@
               | La duración del tratamiento. 
       .col-lg-5(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema3/14.svg" data-aos="fade-left" style="display:inline;max-width:450px;")
+          img(src="@/assets/curso/tema3/14.svg" data-aos="fade-left" style="display:inline;max-width:450px;" alt="Imagen decorativa")
 
     .col-lg-8.m-auto.mt-5
       .row
         .col-lg-5.mb-4.mb-lg-0.pe-lg-0
           figure.text-center
-            img(src="@/assets/curso/tema3/15.png" data-aos="fade-right" style="display:inline;max-width:450px;position:relative;z-index:1")
+            img(src="@/assets/curso/tema3/15.png" data-aos="fade-right" style="display:inline;max-width:450px;position:relative;z-index:1" alt="Imagen decorativa")
         .col-lg-7.ps-lg-0(style="place-self:center;position:relative;")
           .p-4.cont_3_3(data-aos="fade-left")
             p.mb-0 #[strong Las fechas límite de uso deben definirse con mucha cautela]. Antes de definir la fecha límite de uso de una preparación final en forma de solución o suspensión acuosa el preparador deber tener en cuenta factores como la hidrólisis, los ciclos en los que se congela y descongela la preparación final. 
@@ -264,7 +264,7 @@
       .row
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure.text-center
-            img(src="@/assets/curso/tema3/17.png" data-aos="fade-right" style="display:inline;max-width:450px;")
+            img(src="@/assets/curso/tema3/17.png" data-aos="fade-right" style="display:inline;max-width:450px;" alt="Imagen decorativa")
         .col-lg-8(style="place-self:center;")
           .p-4(style="border:5px #12263F dashed;border-radius:15px;")
             p.mb-0(data-aos="fade-up") #[strong Deadline]: para definir la fecha límite en la que se puede usar un medicamento elaborado por preparación magistral, el profesional que realice la preparación debe utilizar toda la información que tenga a su disposición relacionada con la estabilidad, todo esto complementado con las experiencias y el conocimiento que se tenga del sector farmacéutico. 
@@ -284,7 +284,7 @@
               p.mt-3.mb-0 #[strong Cuando el ingrediente activo se obtiene de una sustancia NF o USP], la fecha de límite de uso no deberá superar los 6 meses.
           .col-lg-5(style="place-self:end;")
             figure.text-center
-              img(src="@/assets/curso/tema3/18.svg" style="max-width:450px;")
+              img(src="@/assets/curso/tema3/18.svg" style="max-width:450px;" alt="Imagen decorativa")
       .tarjeta.color-secundario--borde(titulo="Formulaciones con agua")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -293,7 +293,7 @@
               p.mt-3 Para preparaciones magistrales que contienen agua en su formulación y son preparadas a partir de ingredientes en estado sólido, la fecha de vencimiento es anterior a 14 días para preparaciones magistrales líquidas que son almacenadas a temperaturas entre 2 y 8°C.
           .col-lg-5(style="place-self:end;")
             figure.text-center
-              img(src="@/assets/curso/tema3/19.svg" style="max-width:450px;")
+              img(src="@/assets/curso/tema3/19.svg" style="max-width:450px;" alt="Imagen decorativa")
       .tarjeta.color-secundario--borde(titulo="Demás formulaciones")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -308,7 +308,7 @@
                   | Estas fechas de vencimiento se pueden extender cuando existen datos de estabilidad aplicables y científicamente válidos, que corresponden exactamente a la preparación en cuestión (por ejemplo, el mismo intervalo de concentración del fármaco, PH, excipientes, vehículo, contenido de agua, etc.).
           .col-lg-5(style="place-self:end;")
             figure.text-center
-              img(src="@/assets/curso/tema3/20.svg" style="max-width:450px;")
+              img(src="@/assets/curso/tema3/20.svg" style="max-width:450px;" alt="Imagen decorativa")
 
 
 

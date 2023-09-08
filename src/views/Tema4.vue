@@ -10,7 +10,7 @@
     .row
       .col-lg-9.mb-4.mb-lg-0
         figure.text-center
-          img(src="@/assets/curso/tema4/1.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema4/1.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-3(style="place-self:center;position:relative;")
         .cont_responsive2.p-4(style="position:relative;width:150%;background-color:#CDEDFC;border-radius:20px 20px 0px 20px;left:-200px;box-shadow:0px 0px 20px rgba(0,0,0,.2)" data-aos="fade-left")
           p La calidad, eficacia y seguridad de las preparaciones magistrales no estériles, son consecuencia de los siguientes factores:
@@ -37,14 +37,14 @@
         p.mt-4(data-aos="fade-right") En la siguiente figura 3 se podrá observar las fases de control de calidad y su relación con otros procesos:
       .col-lg-4
         figure.text-center
-          img(src="@/assets/curso/tema4/2.svg" data-aos="fade-left" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/2.svg" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     .col-lg-6.mt-5.m-auto
       .titulo-sexto.color-acento-botones
         h5.d-block Figura 3
         span #[em Etapas del control de calidad y su relación con los procesos]
       figure.mt-5
-        img(src="@/assets/curso/tema4/3.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema4/3.svg" data-aos="zoom-in-up" alt="Esquema que relaciona las etapas del control de calidad y su relación con los procesos, lo cual consta de actividades y áreas relacionadas así: Muestreo de materia prima, material de envase-empaque: Bodega Análisis y aprobación de materia prima y material de envase- empaque: Compras Bodega Muestreo, análisis y aprobación de producto semielaborado: Producción Análisis y aprobación de producto terminado: Aseguramiento de calidad Producción Bodega Análisis de control en proceso: Producción Análisis de producto devuelto: Bodega Aseguramiento de calidad")
 
     p.mt-5(data-aos="fade-up") Es posible afirmar que existe una relación muy estrecha entre el control de calidad y los procesos del establecimiento farmacéutico (Farmacia-Droguería), donde se lleve a cabo la elaboración de las preparaciones magistrales.
 
@@ -53,7 +53,7 @@
         .row.m-0.align-items-center.justify-content-between
           .col-lg-3.mb-4.mb-lg-0
             figure.text-center
-              img(src="@/assets/curso/tema4/4.svg" data-aos="zoom-in" style="display:inline;max-width:150px;")
+              img(src="@/assets/curso/tema4/4.svg" data-aos="zoom-in" style="display:inline;max-width:150px;" alt="Imagen decorativa")
           .col-lg-9
             .bloque-texto-a__texto.p-5
               p.mb-0 Es muy importante que se evaluén las materias primas, el producto en proceso y el producto terminado, porque así se garantiza que durante todo el proceso se esté controlando y evaluando la calidad. Esto permite que se puedan tomar decisiones a tiempo y no se vean afectadas las características del producto ni mucho menos la salud del paciente. 
@@ -66,7 +66,7 @@
         .col-lg-1
         .col-lg-3
           figure.text-center
-            img(src="@/assets/curso/tema4/6.svg" data-aos="fade-left" style="display:inline;max-width:450px;")
+            img(src="@/assets/curso/tema4/6.svg" data-aos="fade-left" style="display:inline;max-width:450px;" alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -89,14 +89,14 @@
         div(style="position:absolute;right:0;bottom:0px;z-index:0;")
           img(src="@/assets/curso/tema4/7.png" data-aos="fade-up" style="width:550px;")
         figure.text-center
-          img(src="@/assets/curso/tema4/8.png" data-aos="fade-left" style="display:inline;max-width:450px;z-index:1;position:relative;")
+          img(src="@/assets/curso/tema4/8.png" data-aos="fade-left" style="display:inline;max-width:450px;z-index:1;position:relative;" alt="Imagen decorativa")
 
     .p-4.mt-5(style="background-color:#F7F6FE;")
       .col-lg-10.m-auto
         .row
           .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema4/9.svg" data-aos="fade-right" style="display:inline;max-width:450px;")
+              img(src="@/assets/curso/tema4/9.svg" data-aos="fade-right" style="display:inline;max-width:450px;" alt="Imagen decorativa")
           .col-lg-7(style="place-self:center;")
             p(data-aos="fade-left") El esquema base de un protocolo de análisis hecho de manera completa para el control de calidad para una preparación magistral, debe incluir:
             ul.fa-ul.mb-0.mt-3
@@ -117,7 +117,7 @@
       .col-lg-1
       .col-lg-3.mb-4.mb-lg-0
         figure.text-center
-          img(src="@/assets/curso/tema4/10.svg" data-aos="fade-right" style="display:inline;max-width:450px;")
+          img(src="@/assets/curso/tema4/10.svg" data-aos="fade-right" style="display:inline;max-width:450px;" alt="Imagen decorativa")
       .col-lg-4.mb-4.mb-lg-0
         .tarjeta-numerada.color-acento-contenido.p-5.d-flex.align-items-center(data-aos="fade-up" style="height:100%;")
           .tarjeta-numerada__numero
@@ -141,7 +141,7 @@
     .row
       .col-lg-7.mb-4.mb-lg-0
         figure.text-center
-          img(src="@/assets/curso/tema4/11.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema4/11.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-5(style="place-self:center;position:relative;")
         .cont_responsive2.p-4(style="position:relative;width:140%;background-color:#F6F6F6;border-radius:0px 20px 20px 0px;left:-270px;box-shadow:0px 0px 20px rgba(0,0,0,.1)" data-aos="fade-left")
           p Para que un método analítico se considere como validado y aprobado, es fundamental que cumpla con unos parámetros estadísticos debidamente documentados y comprobados. La documentación para validar los métodos de ensayo está compuesta por tres elementos:
@@ -178,14 +178,14 @@
                 | Se cuantifiquen de las impurezas presentes en el producto.
           .col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/12.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/12.svg' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Precisión")
         .row
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             p El objetivo de esta característica es conocer la variación de los resultados de los análisis entre muestras las muestras que son idénticas, cuyos análisis se hacen manteniendo las mismas condiciones. El estudio de la precisión se debe realizar únicamente para la determinación cuantitativa de principios activos y cuantificación de impurezas. 
           .col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/13.svg' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Especificidad")
         .row
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
@@ -200,21 +200,21 @@
                 | Distorsionar la respuesta del analito. 
           .col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/14.svg' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Exactitud")
         .row
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             p Se utiliza para la determinación de la cercanía entre el resultado obtenido y la muestra estándar. Una aplicación para exactitud es la valoración del principio activo, valoración del placebo cargado con el analito y la valoración de una muestra problema cargada con el analito. 
           .col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/15.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/15.svg' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Robustez")
         .row
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             p Se utiliza como medida que tienen los métodos de análisis para que los resultados permanezcan inalterados (resultados similares siempre) ante algunas variaciones en ciertos parámetros (ambientales, personal, equipos, etc.), proporcionando idea de su fiabilidad o estabilidad durante su empleo. 
           .col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/16.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/16.svg' alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -226,7 +226,7 @@
         .row
           .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema4/18.svg" data-aos="fade-right" style="display:inline;max-width:450px;position:relative;")
+              img(src="@/assets/curso/tema4/18.svg" data-aos="fade-right" style="display:inline;max-width:450px;position:relative;" alt="Imagen decorativa")
           .col-lg-8(style="place-self:center;")
             p(data-aos="fade-left" style="position:relative;") Según las formas farmacéuticas de los preparados magistrales no estériles de uso tópico, existen diferentes ensayos y controles que deben realizarse a estos. Dentro de dichas formas farmacéuticas se encuentran las que frecuentemente son prescritas en formulaciones magistrales, una vez que finalizan los procesos de elaboración (producto terminado):
             .row.mt-4
@@ -271,42 +271,42 @@
         .row(titulo="Características")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/19.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/19.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Características organolépticas
             p.mt-4 Los cambios en las características como el sabor, olor, color, apariencia (consistencia), son indicativos de la afectación de la estabilidad de los preparados magistrales, por eso la importancia del cumplimiento con este análisis.
         .row(titulo="pH")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/20.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/20.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 pH
             p.mt-4 Es importante que se encuentre en los rangos adecuados, según el tipo de producto, ya que puede afectar la solubilidad, estabilidad y consistencia de los preparados magistrales.
         .row(titulo="Viscocidad")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/21.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/21.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Viscocidad
             p.mt-4 Los preparados magistrales cuya consistencia sea viscosa, deben mantener dicha forma farmacéutica, ya que es un indicativo de la conservación de la estabilidad y facilita su aplicación.
         .row(titulo="Valoración")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/22.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Valoración principios activos
             p.mt-4 En los casos que se requiera, este análisis es de mucha importancia ya que es un indicador de la presencia del principio activo en las concentraciones adecuadas, eso garantiza que la acción farmacológica sea la esperada.
         .row(titulo="Peso")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/23.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/23.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Control de peso y volumen
             p.mt-4 Es indispensable garantizar que el peso y/o volumen reportado en la etiqueta sea el que realmente tiene el producto, ya que con esto se evidencia que el proceso de producción se está llevando a cabo bajo condiciones controladas y se garantiza que la terapia al paciente sea adecuada y completa.
         .row(titulo="Control")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/24.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/24.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Control microbiológico
             p.mt-4 Se realiza para preparaciones magistrales estériles, donde se debe garantizar la ausencia de cualquier tipo de microorganismo patógeno.
@@ -314,14 +314,14 @@
         .row(titulo="Ensayo")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/25.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/25.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Ensayo productos degradación
             p.mt-4 El objetivo es evidenciar la ausencia de sustancias que puedan alterar las características fisicoquímicas del producto y al paciente que utilizará el producto.
         .row(titulo="Uniformidad")
           .col-md-6.mb-4.mb-md-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/26.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/26.png' alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             h5 Uniformidad dosis
             p.mt-4 Esta prueba se basa en el análisis diez productos similares para la determinación del porcentaje de principio activo presente en cada uno de ellos, por lo cual la especificación establece el valor de aceptación.
@@ -479,7 +479,7 @@
       .row.p-4.p-md-2(style="background-color:#7E5EE3;border-radius:10px;" data-aos="zoom-in")
         .col-lg-2.col-md-4.mb-4.mb-md-0(style="place-self:center;")
           figure.text-center
-            img(src="@/assets/curso/tema4/27.svg" style="display:inline;max-width:120px;")
+            img(src="@/assets/curso/tema4/27.svg" style="display:inline;max-width:120px;" alt="Imagen decorativa")
         .col-lg-7.col-md-5(style="place-self:center;")
           h4.text-white Control de calidad fórmulas magistrales dermatológicas
           p.text-white.mt-3.text-small Para complementar la información de los controles de calidad de las preparaciones magistrales no estériles, se invita al aprendiz a ver el documento #[strong.text-white Control de calidad fórmulas magistrales dermatológicas], ubicado en el material complementario.

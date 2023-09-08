@@ -15,7 +15,7 @@
             p.mb-0(data-aos="fade-up") #[strong Si para la elaboración de las preparaciones magistrales se utilizan sustancias sometidas a control especial, hay que realizar las consultas respectivas frente a las autoridades sanitarias para verificar los requerimientos]. Luego del proceso de elaboración de las preparaciones magistrales se debe asegurar que cada preparación contenga una cantidad del principio activo entre el 90% y el 110%. Dicha información debe ser incluida en la etiqueta del producto.
         .col-lg-4(style="place-self:center;")
           figure.text-center
-            img(src="@/assets/curso/tema2/2.png" data-aos="fade-left" style="max-width:450px;display:inline;") 
+            img(src="@/assets/curso/tema2/2.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa") 
     
     p.mt-5(data-aos="fade-up") Algunas de las formas farmacéuticas utilizadas en las preparaciones magistrales no estériles son:
 
@@ -24,7 +24,7 @@
         div(style="position:absolute;left:0;bottom:0px;z-index:0;")
           img(src="@/assets/curso/tema2/3.png" data-aos="fade-up" style="width:550px;")
         figure.text-center
-          img(src="@/assets/curso/tema2/4.png" data-aos="fade-right" style="position:relative;z-index:1;max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema2/4.png" data-aos="fade-right" style="position:relative;z-index:1;max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-1
       .col-lg-8(style="place-self:center;")
         h4(data-aos="fade-left") Cápsulas, tabletas, polvos, tabletas de disolución bucal
@@ -33,7 +33,7 @@
     .row.mt-5
       .col-lg-3.mb-4.mb-lg-0(style="place-self:end;")
         figure.text-center
-          img(src="@/assets/curso/tema2/5.svg" data-aos="fade-right" style="max-width:450px;display:inline;") 
+          img(src="@/assets/curso/tema2/5.svg" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa") 
       .col-lg-9
         .row
           .col-lg-4.mb-4
@@ -71,7 +71,7 @@
         .row.mt-5
           .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema2/7.svg" data-aos="fade-right" style="max-width:450px;display:inline;") 
+              img(src="@/assets/curso/tema2/7.svg" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa") 
           .col-lg-7(style="place-self:center;")
             LineaTiempoD.color-primario
               p.text-small(numero="1" titulo="Paso 1") El peso de cada envase lleno debe estar entre el 100% y el 110% del volumen declarado en la etiqueta.
@@ -87,22 +87,22 @@
       .col-lg.pe-md-0.mb-4.mb-lg-0
         .p-4.p-md-5.text-center(style="height:100%;background-color:#D7F3FF;border-radius:10px 0px 0px 10px;")
           figure.text-center
-            img(src="@/assets/curso/tema2/8.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;")
+            img(src="@/assets/curso/tema2/8.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;" alt="Imagen decorativa")
           p.mt-4(data-aos="fade-up") Evitar el uso de ingredientes cáusticos o que causen irritación. Además de pulverizar de manera completa los sólidos que sean abrasivos para las mucosas.
       .col-lg.pe-md-0.ps-md-0.mb-4.mb-lg-0
         .p-4.p-md-5.text-center(style="height:100%;background-color:#CBBEF4;")
           figure.text-center
-            img(src="@/assets/curso/tema2/9.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;")
+            img(src="@/assets/curso/tema2/9.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;" alt="Imagen decorativa")
           p.mt-4(data-aos="fade-up") Seleccionar una base la cual pueda permitir a los ingredientes activos proporcionar el efecto terapéutico deseado a nivel local o sistémico.
       .col-lg.pe-md-0.ps-md-0.mb-4.mb-lg-0
         .p-4.p-md-5.text-center(style="height:100%;background-color:#D7F3FF;")
           figure.text-center
-            img(src="@/assets/curso/tema2/10.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;")
+            img(src="@/assets/curso/tema2/10.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;" alt="Imagen decorativa")
           p.mt-4(data-aos="fade-up") Reducir los ingredientes sólidos a partículas del mínimo tamaño para dar homogeneidad.
       .col-lg.pe-md-0.ps-md-0.mb-4.mb-lg-0
         .p-4.p-md-5.text-center(style="height:100%;background-color:#CBBEF4;border-radius:0px 10px 10px 0px;")
           figure.text-center
-            img(src="@/assets/curso/tema2/11.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;")
+            img(src="@/assets/curso/tema2/11.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;" alt="Imagen decorativa")
           p.mt-4(data-aos="fade-up") Pesar una cantidad adecuada de supositorios para asegurar que cada uno de ellos tenga entre el 90% y el 110% del peso promedio de todos los supositorios en la partida.
     
     h4.mt-5(data-aos="fade-up") Cremas, geles tópicos, ungüentos y pastas
@@ -113,7 +113,7 @@
         ImagenInfografica.infografia1.color-acento-contenido
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/13.svg' data-aos="zoom-in-up")
+              img(src='@/assets/curso/tema2/13.svg' data-aos="zoom-in-up" alt="Imagen decorativa")
           .tarjeta.color-acento-botones(x="24%" y="8%" numero="" style="background-color:transparent;")
             .tarjeta-numerada.color-acento-contenido.p-5.bg-white
               .tarjeta-numerada__numero
@@ -148,7 +148,7 @@
         h5.d-block Figura 2
         span #[em Recomendaciones generales del proceso de fabricación de preparaciones magistrales no estériles]
       figure.mt-5
-        img(src="@/assets/curso/tema2/14.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema2/14.svg" data-aos="zoom-in-up" alt="Esquema que relaciona las recomendaciones generales del proceso de fabricación de preparaciones magistrales no estériles, las cuales son: Evaluar la inocuidad y adecuación de la fórmula médica a las condiciones del laboratorio. Determinar las limitaciones legales. Hacer los cálculos para determinar las cantidades de los ingredientes. Identificar los equipos necesarios para el proceso de la elaboración. Vestir ropas adecuadas y realizar lavado de manos. Limpiar las zona de preparación y el equipo necesario. Preparar una sola receta por vez.  Reunir todos los materiales necesarios para la elaboración. Elaborar la preparación teniendo en cuenta el registro de formulación o la receta médica. Evaluar las variaciones peso, la adecuación del mezclado, transparencia, Olor, color, consistencia y pH según corresponda. Registrar los pasos en el libro de registro de preparaciones magistrales y describir la apariencia de la formulación. Etiquetar el envase teniendo en cuenta la información técnica que debe ir en ella. Firmar y fechar la receta médica indicando que se realizaron todos los procedimientos necesarios. Limpiar todo el equipo inmediatamente y almacenarlo adecuadamente.")
 
 
 
