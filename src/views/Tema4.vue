@@ -161,7 +161,7 @@
     TabsC.color-secundario.mt-5
       .py-3.py-md-4(titulo="Linealidad")
         .row
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             p Esta característica consiste en determinar si los resultados tienen una relación directa con la concentración del principio activo en la muestra, dentro de un rango establecido. Se recomienda estudiar la linealidad en todos los métodos donde:
             ul.fa-ul.mb-0.mt-3
               li.mb-2
@@ -176,19 +176,19 @@
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Se cuantifiquen de las impurezas presentes en el producto.
-          .col-md-6(style="place-self:center;")
+          .col-lg-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/12.svg' alt="Imagen decorativa")
+              img.m-auto(src='@/assets/curso/tema4/12.svg' alt="Imagen decorativa" style="max-width:350px;")
       .py-3.py-md-4(titulo="Precisión")
         .row
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             p El objetivo de esta característica es conocer la variación de los resultados de los análisis entre muestras las muestras que son idénticas, cuyos análisis se hacen manteniendo las mismas condiciones. El estudio de la precisión se debe realizar únicamente para la determinación cuantitativa de principios activos y cuantificación de impurezas. 
-          .col-md-6(style="place-self:center;")
+          .col-lg-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/13.svg' alt="Imagen decorativa")
+              img.m-auto(src='@/assets/curso/tema4/13.svg' alt="Imagen decorativa" style="max-width:350px;")
       .py-3.py-md-4(titulo="Especificidad")
         .row
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             p Mediante este método se evalúa que tan especifico es este para la identificación de un principio activo u otra sustancia que se encuentra mezcladas en el producto (Impurezas, excipientes).
             p.mt-4 La presencia de interferencias puede tener distintos efectos en la determinación del analito como: 
             ul.fa-ul.mb-0.mt-3
@@ -198,23 +198,23 @@
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Distorsionar la respuesta del analito. 
-          .col-md-6(style="place-self:center;")
+          .col-lg-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/14.svg' alt="Imagen decorativa")
+              img.m-auto(src='@/assets/curso/tema4/14.svg' alt="Imagen decorativa" style="max-width:350px;")
       .py-3.py-md-4(titulo="Exactitud")
         .row
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             p Se utiliza para la determinación de la cercanía entre el resultado obtenido y la muestra estándar. Una aplicación para exactitud es la valoración del principio activo, valoración del placebo cargado con el analito y la valoración de una muestra problema cargada con el analito. 
-          .col-md-6(style="place-self:center;")
+          .col-lg-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/15.svg' alt="Imagen decorativa")
+              img.m-auto(src='@/assets/curso/tema4/15.svg' alt="Imagen decorativa" style="max-width:350px;")
       .py-3.py-md-4(titulo="Robustez")
         .row
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             p Se utiliza como medida que tienen los métodos de análisis para que los resultados permanezcan inalterados (resultados similares siempre) ante algunas variaciones en ciertos parámetros (ambientales, personal, equipos, etc.), proporcionando idea de su fiabilidad o estabilidad durante su empleo. 
-          .col-md-6(style="place-self:center;")
+          .col-lg-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/16.svg' alt="Imagen decorativa")
+              img.m-auto(src='@/assets/curso/tema4/16.svg' alt="Imagen decorativa" style="max-width:350px;")
     
     Separador.mt-5
 
@@ -269,60 +269,60 @@
     .tarjeta.tarjeta--gris.p-4.mt-5
       PasosB.color-secundario
         .row(titulo="Características")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/19.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/19.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Características organolépticas
             p.mt-4 Los cambios en las características como el sabor, olor, color, apariencia (consistencia), son indicativos de la afectación de la estabilidad de los preparados magistrales, por eso la importancia del cumplimiento con este análisis.
         .row(titulo="pH")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/20.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/20.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 pH
             p.mt-4 Es importante que se encuentre en los rangos adecuados, según el tipo de producto, ya que puede afectar la solubilidad, estabilidad y consistencia de los preparados magistrales.
         .row(titulo="Viscocidad")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/21.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/21.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Viscocidad
             p.mt-4 Los preparados magistrales cuya consistencia sea viscosa, deben mantener dicha forma farmacéutica, ya que es un indicativo de la conservación de la estabilidad y facilita su aplicación.
         .row(titulo="Valoración")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/22.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/22.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Valoración principios activos
             p.mt-4 En los casos que se requiera, este análisis es de mucha importancia ya que es un indicador de la presencia del principio activo en las concentraciones adecuadas, eso garantiza que la acción farmacológica sea la esperada.
         .row(titulo="Peso")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/23.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/23.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Control de peso y volumen
             p.mt-4 Es indispensable garantizar que el peso y/o volumen reportado en la etiqueta sea el que realmente tiene el producto, ya que con esto se evidencia que el proceso de producción se está llevando a cabo bajo condiciones controladas y se garantiza que la terapia al paciente sea adecuada y completa.
         .row(titulo="Control")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/24.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/24.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Control microbiológico
             p.mt-4 Se realiza para preparaciones magistrales estériles, donde se debe garantizar la ausencia de cualquier tipo de microorganismo patógeno.
             p.mt-3 En las preparaciones no estériles, se trabajan bajo rangos de las unidades formadoras de colonia (UFC).
         .row(titulo="Ensayo")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/25.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/25.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Ensayo productos degradación
             p.mt-4 El objetivo es evidenciar la ausencia de sustancias que puedan alterar las características fisicoquímicas del producto y al paciente que utilizará el producto.
         .row(titulo="Uniformidad")
-          .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+          .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/26.png' alt="Imagen decorativa")
-          .col-md-6(style="place-self:center;")
+              img.m-auto(src='@/assets/curso/tema4/26.png' alt="Imagen decorativa" style="max-width:350px;")
+          .col-lg-6(style="place-self:center;")
             h5 Uniformidad dosis
             p.mt-4 Esta prueba se basa en el análisis diez productos similares para la determinación del porcentaje de principio activo presente en cada uno de ellos, por lo cual la especificación establece el valor de aceptación.
     

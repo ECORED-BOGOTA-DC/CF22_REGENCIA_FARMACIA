@@ -45,10 +45,10 @@
     .tarjeta.tarjeta--gris.p-4.p-lg-5.mt-5
       LineaTiempoC.color-secundario(text-small)
         .row(titulo="VIDRIO")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong vidrio] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -62,10 +62,10 @@
                 | Transparencia.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong lociones y extractos].
         .row(titulo="PLÁSTICO")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/6.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong plástico] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -91,10 +91,10 @@
                 | Existen múltiples tipos de envases de este material.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong ungüentos, geles, cremas y pastas]. 
         .row(titulo="METALES")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/7.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características de los #[strong metales] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -105,16 +105,16 @@
                 | El más utilizado es el de aluminio.
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong loción].
         .row(titulo="COMPUESTOS")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Los #[strong materiales compuestos] están formados por diferentes elementos, en la mayoría de los casos de aluminio y varios tipos de plásticos: PVC, polietileno, etc. Su uso es más enfocado en comprimidos y medicamentos de administración vía oral o supositorios.
         .row(titulo="P.E.T.")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong polietileno (PET)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -137,10 +137,10 @@
                 | Primera elección para envasar líquidos que requieren ingesta.
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong jarabes].
         .row(titulo="P.E.A.D.")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/9.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong polietileno de alta densidad (PEAD)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -157,10 +157,10 @@
                 | Con este material se hacen las tapas de alta seguridad (inviolables).
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong cremas].
         .row(titulo="P.E.B.D.")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/10.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong polietileno de baja densidad (PEBD)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -180,10 +180,10 @@
                 | No genera migraciones de compuestos a los productos.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong geles, cremas y ungüentos].
         .row(titulo="P.S.")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/11.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong poliestireno (PS)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -200,10 +200,10 @@
                 | Fácil de rotular.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong comprimidos, cápsulas y polvos].
         .row(titulo="P.V.C.")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/12.png' alt="Imagen decorativa")
-          .col-md-6
+          .col-lg-6
             p Las características del #[strong policloruro de vinilo (PVC)] como material para preparados magistrales son:
             ul.fa-ul.mt-3
               li.mb-2
@@ -284,7 +284,7 @@
               p.mt-3.mb-0 #[strong Cuando el ingrediente activo se obtiene de una sustancia NF o USP], la fecha de límite de uso no deberá superar los 6 meses.
           .col-lg-5(style="place-self:end;")
             figure.text-center
-              img(src="@/assets/curso/tema3/18.svg" style="max-width:450px;" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/18.svg" style="max-width:450px;" alt="Imagen decorativa")
       .tarjeta.color-secundario--borde(titulo="Formulaciones con agua")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -293,7 +293,7 @@
               p.mt-3 Para preparaciones magistrales que contienen agua en su formulación y son preparadas a partir de ingredientes en estado sólido, la fecha de vencimiento es anterior a 14 días para preparaciones magistrales líquidas que son almacenadas a temperaturas entre 2 y 8°C.
           .col-lg-5(style="place-self:end;")
             figure.text-center
-              img(src="@/assets/curso/tema3/19.svg" style="max-width:450px;" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/19.svg" style="max-width:450px;" alt="Imagen decorativa")
       .tarjeta.color-secundario--borde(titulo="Demás formulaciones")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -308,7 +308,7 @@
                   | Estas fechas de vencimiento se pueden extender cuando existen datos de estabilidad aplicables y científicamente válidos, que corresponden exactamente a la preparación en cuestión (por ejemplo, el mismo intervalo de concentración del fármaco, PH, excipientes, vehículo, contenido de agua, etc.).
           .col-lg-5(style="place-self:end;")
             figure.text-center
-              img(src="@/assets/curso/tema3/20.svg" style="max-width:450px;" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/20.svg" style="max-width:450px;" alt="Imagen decorativa")
 
 
 
@@ -330,7 +330,11 @@
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
+  components: {
+    LineaTiempoC,
+  },
   name: 'Tema3',
   data: () => ({
     mostrarIndicador: true,
