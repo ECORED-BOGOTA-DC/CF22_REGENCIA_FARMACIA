@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Procesos de elaboración y control de calidad de magistrales no estériles**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF22_REGENCIA_FARMACIA/#/](https://ecored-bogota-dc.github.io/CF22_REGENCIA_FARMACIA/#/)
 
 #
 

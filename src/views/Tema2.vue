@@ -149,6 +149,7 @@
         span #[em Recomendaciones generales del proceso de fabricación de preparaciones magistrales no estériles]
       figure.mt-5
         img(src="@/assets/curso/tema2/14.svg" data-aos="zoom-in-up" alt="Esquema que relaciona las recomendaciones generales del proceso de fabricación de preparaciones magistrales no estériles, las cuales son: Evaluar la inocuidad y adecuación de la fórmula médica a las condiciones del laboratorio. Determinar las limitaciones legales. Hacer los cálculos para determinar las cantidades de los ingredientes. Identificar los equipos necesarios para el proceso de la elaboración. Vestir ropas adecuadas y realizar lavado de manos. Limpiar las zona de preparación y el equipo necesario. Preparar una sola receta por vez.  Reunir todos los materiales necesarios para la elaboración. Elaborar la preparación teniendo en cuenta el registro de formulación o la receta médica. Evaluar las variaciones peso, la adecuación del mezclado, transparencia, Olor, color, consistencia y pH según corresponda. Registrar los pasos en el libro de registro de preparaciones magistrales y describir la apariencia de la formulación. Etiquetar el envase teniendo en cuenta la información técnica que debe ir en ella. Firmar y fechar la receta médica indicando que se realizaron todos los procedimientos necesarios. Limpiar todo el equipo inmediatamente y almacenarlo adecuadamente.")
+      figcaption.fw-normal.mt-3 Nota. SENA (2021).
 
 
 

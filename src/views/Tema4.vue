@@ -45,6 +45,7 @@
         span #[em Etapas del control de calidad y su relación con los procesos]
       figure.mt-5
         img(src="@/assets/curso/tema4/3.svg" data-aos="zoom-in-up" alt="Esquema que relaciona las etapas del control de calidad y su relación con los procesos, lo cual consta de actividades y áreas relacionadas así: Muestreo de materia prima, material de envase-empaque: Bodega Análisis y aprobación de materia prima y material de envase- empaque: Compras Bodega Muestreo, análisis y aprobación de producto semielaborado: Producción Análisis y aprobación de producto terminado: Aseguramiento de calidad Producción Bodega Análisis de control en proceso: Producción Análisis de producto devuelto: Bodega Aseguramiento de calidad")
+      figcaption.fw-normal.mt-3 Nota. SENA (2021).
 
     p.mt-5(data-aos="fade-up") Es posible afirmar que existe una relación muy estrecha entre el control de calidad y los procesos del establecimiento farmacéutico (Farmacia-Droguería), donde se lleve a cabo la elaboración de las preparaciones magistrales.
 
