@@ -268,7 +268,7 @@
       p.mt-5(data-aos="fade-up" style="position:relative;") A continuación, se indica de manera general, la importancia de los análisis realizados a los productos y el impacto que tienen sobre el preparado magistral:
               
     .tarjeta.tarjeta--gris.p-4.mt-5
-      PasosB.color-secundario
+      LineaTiempoC.color-secundario
         .row(titulo="Características")
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
             figure
@@ -496,27 +496,15 @@
 
 
 
-
-
-
-
-    
-
-
-      
-
-
-
-
-
-      
-      
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
   name: 'Tema4',
-  components: {},
+  components: {
+    LineaTiempoC,
+  },
   data: () => ({
     indicadorTarjetaSlide: true,
   }),
