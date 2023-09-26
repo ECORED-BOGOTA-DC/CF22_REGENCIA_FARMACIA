@@ -2,24 +2,24 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido(data-aos="fade-up")
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Estabilidad de las preparaciones magistrales no estériles
     
     .col-lg-10.m-auto
       .bloque-texto-a.color-primario.p-4.p-md-5
-        .row.m-0.align-items-center.justify-content-between
-          .col-lg-3.mb-4.mb-lg-0
+        .row.m-0.align-items-center.justify-content-center
+          .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
             figure.text-center
-              img(src="@/assets/curso/tema3/1.svg" data-aos="zoom-in" style="display:inline;max-width:150px;" alt="Imagen decorativa")
-          .col-lg-9
+              img(src="@/assets/curso/tema3/1.svg" style="display:inline;max-width:150px;" alt="Imagen decorativa")
+          .col-lg-9(data-aos="fade-left")
             .bloque-texto-a__texto.p-5
               p.mb-0 La estabilidad es la conservación, durante el tiempo en que el producto esté almacenado y utilizado, es decir, que tenga las mismas propiedades y características que tenía cuando se preparó.
 
     .cont_3_1.mt-5.pt-5.pb-5
       .row
-        .col-lg-8.mb-4.mb-lg-0
+        .col-lg-8.mb-lg-0.mb-4
           figure.text-center
             img(src="@/assets/curso/tema3/2.png" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-4(style="place-self:center;position:relative;")
@@ -27,25 +27,24 @@
             p El profesional que realice la preparación debe evitar la utilización de ingredientes o condiciones de procesamiento que puedan ocasionar que los preparados se conviertan en productos tóxicos o ineficaces. Este debe tener un profundo conocimiento en lo relacionado con las reacciones químicas de degradación de los medicamentos.
             p.mt-4.mb-0 Los factores que afectan la estabilidad de las preparaciones magistrales son los mismos que para los medicamentos fabricados.
             
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_3_1 3.1 Envase primario
+    Separador
+    #t_3_1.titulo-segundo(data-aos="fade-right")
+      h2 3.1 Envase primario
     
     .cont_3_2.pt-5.pb-5
       .col-lg-10.m-auto
         .row
-          .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
+          .col-lg-3.col-6.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
               img(src="@/assets/curso/tema3/3.png" data-aos="fade-right" style="display:inline;max-width:450px;" alt="Imagen decorativa")
           .col-lg-9(style="place-self:center;")
             p(data-aos="fade-left") Se requieren envases que cumplan con las normas USP. Utilizar un envase que haya sido seleccionado según las propiedades fisicoquímicas de la preparación magistral. Tener presente la interacción envase-fármaco siempre que se trate de sustancias tales como: compuestos fenólicos y materiales con propiedades de absorción y adsorción (por ejemplo, el polipropileno y proteínas).
             p.mt-4(data-aos="fade-left") A continuación, se podrán observar los diferentes tipos de envases primarios utilizados según la norma farmacéutica:
       
-    .tarjeta.tarjeta--gris.p-4.p-lg-5.mt-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5.mt-5(data-aos="zoom-in")
       LineaTiempoC.color-secundario(text-small)
-        .row(titulo="VIDRIO")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="VIDRIO")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
           .col-lg-6
@@ -61,8 +60,8 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Transparencia.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong lociones y extractos].
-        .row(titulo="PLÁSTICO")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="PLÁSTICO")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/6.png' alt="Imagen decorativa")
           .col-lg-6
@@ -90,8 +89,8 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Existen múltiples tipos de envases de este material.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong ungüentos, geles, cremas y pastas]. 
-        .row(titulo="METALES")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="METALES")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/7.png' alt="Imagen decorativa")
           .col-lg-6
@@ -104,14 +103,14 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | El más utilizado es el de aluminio.
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong loción].
-        .row(titulo="COMPUESTOS")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="COMPUESTOS")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
           .col-lg-6
             p Los #[strong materiales compuestos] están formados por diferentes elementos, en la mayoría de los casos de aluminio y varios tipos de plásticos: PVC, polietileno, etc. Su uso es más enfocado en comprimidos y medicamentos de administración vía oral o supositorios.
-        .row(titulo="P.E.T.")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="P.E.T.")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
           .col-lg-6
@@ -136,8 +135,8 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Primera elección para envasar líquidos que requieren ingesta.
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong jarabes].
-        .row(titulo="P.E.A.D.")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="P.E.A.D.")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/9.png' alt="Imagen decorativa")
           .col-lg-6
@@ -156,8 +155,8 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Con este material se hacen las tapas de alta seguridad (inviolables).
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong cremas].
-        .row(titulo="P.E.B.D.")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="P.E.B.D.")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/10.png' alt="Imagen decorativa")
           .col-lg-6
@@ -179,8 +178,8 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | No genera migraciones de compuestos a los productos.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong geles, cremas y ungüentos].
-        .row(titulo="P.S.")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="P.S.")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/11.png' alt="Imagen decorativa")
           .col-lg-6
@@ -199,8 +198,8 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Fácil de rotular.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong comprimidos, cápsulas y polvos].
-        .row(titulo="P.V.C.")
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center(titulo="P.V.C.")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/12.png' alt="Imagen decorativa")
           .col-lg-6
@@ -217,17 +216,16 @@
                 | Tiene aditivos que migran al producto.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong comprimidos, polvos y cápsulas].
     
-    .col-lg-8.m-auto.mt-5
+    .col-lg-8.m-auto.mt-5(data-aos="flip-up")
       .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
-        p.mb-0(data-aos="fade-up") Es obligatorio garantizar la esterilidad de las preparaciones magistrales estériles. La preparación y envasado de medicamentos estériles, como por ejemplo las soluciones oftálmicas, requiere un cumplimiento bajo condiciones muy estrictas.
+        p.mb-0 Es obligatorio garantizar la esterilidad de las preparaciones magistrales estériles. La preparación y envasado de medicamentos estériles, como por ejemplo las soluciones oftálmicas, requiere un cumplimiento bajo condiciones muy estrictas.
     
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_3_2 3.2 Criterios de estabilidad y determinación de la fecha límite de uso
+    Separador
+    #t_3_2.titulo-segundo(data-aos="fade-right")
+      h2 3.2 Criterios de estabilidad y determinación de la fecha límite de uso
     
-    .row
-      .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+    .row.justify-content-center.align-items-center
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p(data-aos="fade-right") La fecha límite para el uso de un preparado magistral es aquella que indica hasta cuando debe usarse, y se determina a partir de la fecha en la que fue elaborado. Debido a que su uso es inmediato o luego de un período corto de almacenamiento, dicha fecha podrá tener diferentes criterios en comparación con los medicamentos elaborados en laboratorios.
         p.mt-4(data-aos="fade-right") Para la definición de la fecha límite de uso es indispensable que se realicen las consultas y se aplique la información disponible en la literatura actualizada relacionada con la estabilidad en general, la específica del fármaco y que se tenga en cuenta:
         .p-4.mt-4(style="background-color:#F6F6F6;")
@@ -247,13 +245,13 @@
             li(data-aos="fade-up")
               i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | La duración del tratamiento. 
-      .col-lg-5(style="place-self:center;")
+      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         figure.text-center
-          img(src="@/assets/curso/tema3/14.svg" data-aos="fade-left" style="display:inline;max-width:450px;" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/14.svg" style="display:inline;max-width:450px;" alt="Imagen decorativa")
 
     .col-lg-8.m-auto.mt-5
       .row
-        .col-lg-5.mb-4.mb-lg-0.pe-lg-0
+        .col-lg-5.col-10.mb-4.mb-lg-0.pe-lg-0
           figure.text-center
             img(src="@/assets/curso/tema3/15.png" data-aos="fade-right" style="display:inline;max-width:450px;position:relative;z-index:1" alt="Imagen decorativa")
         .col-lg-7.ps-lg-0(style="place-self:center;position:relative;")
@@ -262,41 +260,41 @@
     
     .cont_3_4.pt-5.mt-5
       .row
-        .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+        .col-lg-4.col-8.mb-4.mb-lg-0(style="place-self:center;")
           figure.text-center
             img(src="@/assets/curso/tema3/17.png" data-aos="fade-right" style="display:inline;max-width:450px;" alt="Imagen decorativa")
         .col-lg-8(style="place-self:center;")
           .p-4(style="border:5px #12263F dashed;border-radius:15px;")
-            p.mb-0(data-aos="fade-up") #[strong Deadline]: para definir la fecha límite en la que se puede usar un medicamento elaborado por preparación magistral, el profesional que realice la preparación debe utilizar toda la información que tenga a su disposición relacionada con la estabilidad, todo esto complementado con las experiencias y el conocimiento que se tenga del sector farmacéutico. 
-          p.mt-4(data-aos="fade-up") En el momento que se utilice un principio activo de un medicamento fabricado como un ingrediente activo de una preparación magistral no estéril, no se debe utilizar la fecha de vencimiento que tenga este. Sin embargo, quien elabore la preparación podrá realizar las consultas respectivas en la literatura o la información de estabilidad dada por el laboratorio fabricante.
+            p.mb-0(data-aos="fade-left") #[strong #[em Deadline]]: para definir la fecha límite en la que se puede usar un medicamento elaborado por preparación magistral, el profesional que realice la preparación debe utilizar toda la información que tenga a su disposición relacionada con la estabilidad, todo esto complementado con las experiencias y el conocimiento que se tenga del sector farmacéutico. 
+          p.mt-4(data-aos="fade-left") En el momento que se utilice un principio activo de un medicamento fabricado como un ingrediente activo de una preparación magistral no estéril, no se debe utilizar la fecha de vencimiento que tenga este. Sin embargo, quien elabore la preparación podrá realizar las consultas respectivas en la literatura o la información de estabilidad dada por el laboratorio fabricante.
           .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
-            p.mb-0(data-aos="fade-up") Si no están a disposición los datos relacionados con la estabilidad del fármaco o de la preparación específica, es recomendable que se utilicen las siguientes fechas de vencimiento máximas para preparaciones magistrales no estériles, que son envasadas en envases tipo impermeables y que resisten la luz y se almacenan a unas temperaturas y ambientes controlados, a no ser que se tome una, que determine algo diferente.
+            p.mb-0(data-aos="fade-left") Si no están a disposición los datos relacionados con la estabilidad del fármaco o de la preparación específica, es recomendable que se utilicen las siguientes fechas de vencimiento máximas para preparaciones magistrales no estériles, que son envasadas en envases tipo impermeables y que resisten la luz y se almacenan a unas temperaturas y ambientes controlados, a no ser que se tome una, que determine algo diferente.
     
-    p.mt-5(data-aos="fade-up") A continuación, se dan las recomendaciones de las fechas límites:
+    p.mt-5(data-aos="fade-right") A continuación, se dan las recomendaciones de las fechas límites:
 
-    TabsA.color-acento-contenido.mt-5
+    TabsA.color-acento-contenido.mt-5(data-aos="zoom-in")
       .tarjeta.color-secundario--borde(titulo="Líquidos no acuosos")
-        .row
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-7.order-lg-1.order-2
             .p-4.pt-5
               p.fw-bold Para líquidos no acuosos y formulaciones sólidas
               p.mt-3 #[strong Cuando el ingrediente activo se obtiene de un producto farmacéutico fabricado], la fecha de vencimiento equivale al 25% del tiempo que le falta por vencer al producto o se le dan 6 meses.
               p.mt-3.mb-0 #[strong Cuando el ingrediente activo se obtiene de una sustancia NF o USP], la fecha de límite de uso no deberá superar los 6 meses.
-          .col-lg-5(style="place-self:end;")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             figure.text-center
               img.m-auto(src="@/assets/curso/tema3/18.svg" style="max-width:450px;" alt="Imagen decorativa")
       .tarjeta.color-secundario--borde(titulo="Formulaciones con agua")
-        .row
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-7.order-lg-1.order-2
             .p-4.pt-5
               p.fw-bold Para formulaciones que contienen agua
               p.mt-3 Para preparaciones magistrales que contienen agua en su formulación y son preparadas a partir de ingredientes en estado sólido, la fecha de vencimiento es anterior a 14 días para preparaciones magistrales líquidas que son almacenadas a temperaturas entre 2 y 8°C.
-          .col-lg-5(style="place-self:end;")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             figure.text-center
               img.m-auto(src="@/assets/curso/tema3/19.svg" style="max-width:450px;" alt="Imagen decorativa")
       .tarjeta.color-secundario--borde(titulo="Demás formulaciones")
-        .row
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-7.order-lg-1.order-2
             .p-4.pt-5
               p.fw-bold Para todas las demás formulaciones
               ul.fa-ul.mb-0.mt-3
@@ -306,36 +304,17 @@
                 li(data-aos="fade-up")
                   i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                   | Estas fechas de vencimiento se pueden extender cuando existen datos de estabilidad aplicables y científicamente válidos, que corresponden exactamente a la preparación en cuestión (por ejemplo, el mismo intervalo de concentración del fármaco, PH, excipientes, vehículo, contenido de agua, etc.).
-          .col-lg-5(style="place-self:end;")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             figure.text-center
               img.m-auto(src="@/assets/curso/tema3/20.svg" style="max-width:450px;" alt="Imagen decorativa")
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-    
-
 
 
 </template>
 
 <script>
-import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
-  components: {
-    LineaTiempoC,
-  },
   name: 'Tema3',
+  components: {},
   data: () => ({
     mostrarIndicador: true,
     mostrarIndicador2: true,

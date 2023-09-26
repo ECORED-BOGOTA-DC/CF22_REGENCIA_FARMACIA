@@ -6,7 +6,12 @@ export default {
       'Este componente formativo abarca temas relacionados con los requisitos y elementos técnicos necesarios para los procesos de elaboración y control de calidad de las preparaciones magistrales no estériles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

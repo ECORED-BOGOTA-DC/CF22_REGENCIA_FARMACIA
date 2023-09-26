@@ -1,19 +1,30 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotation 9s infinite linear
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    width: 108%
+    bottom: 45%
+    left: -10%
 
-
-@keyframes float1
+@keyframes rotation
   0%
-    transform: translateY(20px)
-
+    transform: rotate(0deg)
+    opacity: 0
+  50%
+    transform: rotate(180deg)
+    opacity: 1
   100%
-    transform: translateY(0px)
+    transform: rotate(359deg)
+    opacity: 0
+  
+.banner-principal__row .banner-principal__img
+  width: 33%
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #81D4FA
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px
