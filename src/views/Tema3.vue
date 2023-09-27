@@ -43,7 +43,7 @@
       
     .tarjeta.tarjeta--gris.p-4.p-lg-5.mt-5(data-aos="zoom-in")
       LineaTiempoC.color-secundario(text-small)
-        .row.justify-content-center(titulo="VIDRIO")
+        .row.justify-content-center(titulo="Vidrio")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
@@ -60,7 +60,7 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Transparencia.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong lociones y extractos].
-        .row.justify-content-center(titulo="PLÁSTICO")
+        .row.justify-content-center(titulo="Plástico")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/6.png' alt="Imagen decorativa")
@@ -89,7 +89,7 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Existen múltiples tipos de envases de este material.
             p.mt-3 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong ungüentos, geles, cremas y pastas]. 
-        .row.justify-content-center(titulo="METALES")
+        .row.justify-content-center(titulo="Metales")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/7.png' alt="Imagen decorativa")
@@ -103,7 +103,7 @@
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | El más utilizado es el de aluminio.
             p.mt-3 La forma farmacéutica utilizada con mayor frecuencia es en #[strong loción].
-        .row.justify-content-center(titulo="COMPUESTOS")
+        .row.justify-content-center(titulo="Compuestos")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
