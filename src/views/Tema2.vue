@@ -35,28 +35,28 @@
         figure.text-center
           img(src="@/assets/curso/tema2/5.svg" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa") 
       .col-lg-9
-        .row
-          .col-lg-4.mb-4
+        .row.justify-content-center
+          .col-xxl-4.col-lg-6.mb-4
             .tarjeta-numerada.color-acento-contenido.h-100.p-5(data-aos="fade-right")
               .tarjeta-numerada__numero
                 .h2(style="color:#12263F;") 1
               p Disminuir los ingredientes que sean sólidos a partículas de mínimo tamaño para que sean homogéneas.
-          .col-lg-4.mb-4
+          .col-xxl-4.col-lg-6.mb-4
             .tarjeta-numerada.color-acento-contenido.h-100.p-5(data-aos="flip-up")
               .tarjeta-numerada__numero
                 .h2(style="color:#12263F;") 2
               p Realizar los controles que se necesiten para asegurar que la mezcla sea homogénea.
-          .col-lg-4.mb-4
+          .col-xxl-4.col-lg-6.mb-4
             .tarjeta-numerada.color-acento-contenido.h-100.p-5(data-aos="fade-left")
               .tarjeta-numerada__numero
                 .h2(style="color:#12263F;") 3
-              p Controlar la humedad ya que puede ocasionar adhesión a las paredes del envase, ablandamiento o que se disuelva parcialmente la cubierta de las cápsulas.
-          .col-lg-4.mb-4
+              p Controlar la humedad, ya que puede ocasionar adhesión a las paredes del envase, ablandamiento o que se disuelva parcialmente la cubierta de las cápsulas.
+          .col-xxl-4.col-lg-6.mb-4
             .tarjeta-numerada.color-acento-contenido.h-100.p-5(data-aos="fade-right")
               .tarjeta-numerada__numero
                 .h2(style="color:#12263F;") 4
               p Pesar con exactitud para asegurar que cada unidad contenga entre el 90% y el 110% del peso calculado.
-          .col-lg-4.mb-4
+          .col-xxl-4.col-lg-6.mb-4
             .tarjeta-numerada.color-acento-contenido.h-100.p-5(data-aos="fade-left")
               .tarjeta-numerada__numero
                 .h2(style="color:#12263F;") 5
@@ -65,7 +65,7 @@
     .cont_2_2
       .pt-5
         h4.pt-5(data-aos="fade-left") Emulsiones, soluciones y suspensiones
-        p.mt-4(data-aos="fade-right") Para la preparación de estas formas farmacéuticas líquidas, se debe lograr el producto con un exceso del 2% a 3% debido a que pueden haber pérdidas o adhesión de estas a los equipos que se utilicen para fabricación. Se deben aplicar las siguientes prácticas y precauciones en el momento de la elaboración de estas formas farmacéuticas líquidas:
+        p.mt-4(data-aos="fade-right") Para la preparación de estas formas farmacéuticas líquidas, se debe lograr el producto con un exceso del 2% a 3% debido a que puede haber pérdidas o adhesión de estas a los equipos que se utilicen para fabricación. Se deben aplicar las siguientes prácticas y precauciones en el momento de la elaboración de estas formas farmacéuticas líquidas:
 
         .row.mt-5
           .col-lg-5.col-10.mb-lg-0.mb-4(style="place-self:center;")
@@ -132,7 +132,7 @@
             .tarjeta-numerada.color-acento-contenido.p-5.bg-white
               .tarjeta-numerada__numero
                 .h2 4
-              p(style="color:#12263F;") Incorporar de manera geométrica cada uno de los ingredientes activos con las sustancia agregadas para lograr la uniformidad de la formas farmacéuticas líquidas o de la dispersión del sólido.
+              p(style="color:#12263F;") Incorporar de manera geométrica cada uno de los ingredientes activos con las sustancias agregadas para lograr la uniformidad de las formas farmacéuticas líquidas o de la dispersión del sólido.
           .tarjeta.color-acento-botones(x="8%" y="60%" numero="" style="background-color:transparent;")
             .tarjeta-numerada.color-acento-contenido.p-5.bg-white
               .tarjeta-numerada__numero

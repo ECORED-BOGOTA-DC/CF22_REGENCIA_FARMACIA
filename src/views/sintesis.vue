@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5(data-aos="fade-right") Los medicamentos que son elaborados directamente en los servicios de farmacias, deben contemplar los requisitos exigidos por la norma, que permitan con esto garantizar la calidad de dichas preparaciones, para esto se debe tener muy en cuenta tanto las responsabilidades del personal como la documentación que se debe generar con el proceso. Por lo anterior este componente formativo contiene todos los temas necesarios para obtener las bases técnicas de los procesos de elaboración y control de calidad de preparaciones magistrales y lo puede visualizar a través del siguiente mapa conceptual.
+    p.mb-5(data-aos="fade-right") Los medicamentos que son elaborados directamente en los servicios de farmacias, deben contemplar los requisitos exigidos por la norma, que permitan con esto garantizar la calidad de dichas preparaciones, para esto se debe tener muy en cuenta tanto las responsabilidades del personal como la documentación que se debe generar con el proceso. Por lo anterior, este componente formativo contiene todos los temas necesarios para obtener las bases técnicas de los procesos de elaboración y control de calidad de preparaciones magistrales y lo puede visualizar a través del siguiente mapa conceptual.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")

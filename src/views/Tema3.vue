@@ -193,7 +193,7 @@
                 | Cristalino y rígido.
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | Ideal para preparaciones cápsulas, comprimidos y polvos.
+                | Ideal para preparaciones, cápsulas, comprimidos y polvos.
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Fácil de rotular.
@@ -256,7 +256,7 @@
             img(src="@/assets/curso/tema3/15.png" data-aos="fade-right" style="display:inline;max-width:450px;position:relative;z-index:1" alt="Imagen decorativa")
         .col-lg-7.ps-lg-0(style="place-self:center;position:relative;")
           .p-4.cont_3_3(data-aos="fade-left")
-            p.mb-0 #[strong Las fechas límite de uso deben definirse con mucha cautela]. Antes de definir la fecha límite de uso de una preparación final en forma de solución o suspensión acuosa el preparador deber tener en cuenta factores como la hidrólisis, los ciclos en los que se congela y descongela la preparación final. 
+            p.mb-0 #[strong Las fechas límite de uso deben definirse con mucha cautela]. Antes de definir la fecha límite de uso de una preparación final en forma de solución o suspensión acuosa, el preparador deber tener en cuenta factores como la hidrólisis, los ciclos en los que se congela y descongela la preparación final. 
     
     .cont_3_4.pt-5.mt-5
       .row
@@ -288,7 +288,7 @@
           .col-lg-7.order-lg-1.order-2
             .p-4.pt-5
               p.fw-bold Para formulaciones que contienen agua
-              p.mt-3 Para preparaciones magistrales que contienen agua en su formulación y son preparadas a partir de ingredientes en estado sólido, la fecha de vencimiento es anterior a 14 días para preparaciones magistrales líquidas que son almacenadas a temperaturas entre 2 y 8°C.
+              p.mt-3 Para preparaciones magistrales que contienen agua en su formulación y son preparadas a partir de ingredientes en estado sólido, la fecha de vencimiento es anterior a 14 días, para preparaciones magistrales líquidas que son almacenadas a temperaturas entre 2 y 8 °C.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             figure.text-center
               img.m-auto(src="@/assets/curso/tema3/19.svg" style="max-width:450px;" alt="Imagen decorativa")

@@ -33,7 +33,7 @@
     
     .row.justify-content-center.mt-5
       .col-lg-8.order-lg-1.order-2(style="place-self:end;")
-        p(data-aos="fade-right") Quien realice la preparación debe hacer una última revisión y verificación de cada procedimiento que se utilice durante el proceso de elaboración de la preparación magistral. El preparador para poder que se asegure la exactitud y la integridad, debe observar y evaluar la preparación final para determinar si cumple con aspectos como la apariencia y realizar la investigación cuando se presente cualquier discrepancia, con el objetivo de tomar las acciones correctivas pertinentes antes de dispensar el producto al paciente.
+        p(data-aos="fade-right") Quien realice la preparación debe hacer una última revisión y verificación de cada procedimiento que se utilice durante el proceso de elaboración de la preparación magistral. El preparador, para poder que se asegure la exactitud y la integridad, debe observar y evaluar la preparación final para determinar si cumple con aspectos como la apariencia y realizar la investigación cuando se presente cualquier discrepancia, con el objetivo de tomar las acciones correctivas pertinentes antes de dispensar el producto al paciente.
         p.mt-4(data-aos="fade-right") En la siguiente figura 3 se podrá observar las fases de control de calidad y su relación con otros procesos:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         figure.text-center
@@ -57,13 +57,13 @@
               img(src="@/assets/curso/tema4/4.svg" style="display:inline;max-width:150px;" alt="Imagen decorativa")
           .col-lg-9(data-aos="fade-left")
             .bloque-texto-a__texto.p-5
-              p.mb-0 Es muy importante que se evaluén las materias primas, el producto en proceso y el producto terminado, porque así se garantiza que durante todo el proceso se esté controlando y evaluando la calidad. Esto permite que se puedan tomar decisiones a tiempo y no se vean afectadas las características del producto ni mucho menos la salud del paciente. 
+              p.mb-0 Es muy importante que se evalúen las materias primas, el producto en proceso y el producto terminado, porque así se garantiza que durante todo el proceso se esté controlando y evaluando la calidad. Esto permite que se puedan tomar decisiones a tiempo y no se vean afectadas las características del producto ni mucho menos la salud del paciente. 
     
     .cont_4_1.mt-5
       .row.justify-content-center
         .col-lg-8.order-lg-1.order-2(style="place-self:center;")
           h4(data-aos="fade-right") Análisis del producto terminado 
-          p.mt-4(data-aos="fade-right") El producto farmacéutico en su etapa de semi elaboración, pasa por un proceso de acondicionamiento, en el que se llevan a cabo operaciones como el llenado y el etiquetado, los cuales son de vital importancia para el proceso transformación de un producto semielaborado o a granel, en un #[strong producto farmacéutico terminado]. Los productos terminados solo se podrán comercializar una vez sean aprobados. Dicha aprobación es un requisito que se establece cuando los resultados de los análisis realizados cumplan con las especificaciones que se establecieron, para que puedan ser distribuidos y finalmente dispensados al paciente.
+          p.mt-4(data-aos="fade-right") El producto farmacéutico, en su etapa de semi elaboración, pasa por un proceso de acondicionamiento, en el que se llevan a cabo operaciones como el llenado y el etiquetado, los cuales son de vital importancia para el proceso de transformación de un producto semielaborado o a granel, en un #[strong producto farmacéutico terminado]. Los productos terminados solo se podrán comercializar una vez sean aprobados. Dicha aprobación es un requisito que se establece cuando los resultados de los análisis realizados cumplan con las especificaciones que se establecieron, para que puedan ser distribuidos y finalmente dispensados al paciente.
         .col-lg-1.d-lg-flex.d-none
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
           figure.text-center
@@ -127,7 +127,7 @@
         .tarjeta-numerada.color-acento-contenido.p-5.d-flex.align-items-center(data-aos="fade-left" style="height:100%;")
           .tarjeta-numerada__numero
             .h2(style="color:#12263F;") 2
-          p Que los métodos y los reactivos utilizados y están definidos en la farmacopea se utilicen de manera adecuada.
+          p Que los métodos y los reactivos utilizados están definidos en la farmacopea se utilicen de manera adecuada.
     
     .col-lg-8.mt-5.m-auto(data-aos="fade-up")
       .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
@@ -181,7 +181,7 @@
       .py-3.py-md-4(titulo="Precisión")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
-            p El objetivo de esta característica es conocer la variación de los resultados de los análisis entre muestras las muestras que son idénticas, cuyos análisis se hacen manteniendo las mismas condiciones. El estudio de la precisión se debe realizar únicamente para la determinación cuantitativa de principios activos y cuantificación de impurezas. 
+            p El objetivo de esta característica es conocer la variación de los resultados de los análisis entre muestras, las muestras que son idénticas, cuyos análisis se hacen manteniendo las mismas condiciones. El estudio de la precisión se debe realizar únicamente para la determinación cuantitativa de principios activos y cuantificación de impurezas. 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img.m-auto(src='@/assets/curso/tema4/13.svg' alt="Imagen decorativa" style="max-width:350px;")
@@ -293,7 +293,7 @@
               img.m-auto(src='@/assets/curso/tema4/22.png' alt="Imagen decorativa" style="max-width:350px;")
           .col-lg-6
             h5 Valoración principios activos
-            p.mt-4 En los casos que se requiera, este análisis es de mucha importancia ya que es un indicador de la presencia del principio activo en las concentraciones adecuadas, eso garantiza que la acción farmacológica sea la esperada.
+            p.mt-4 En los casos que se requiera, este análisis es de mucha importancia, ya que es un indicador de la presencia del principio activo en las concentraciones adecuadas, eso garantiza que la acción farmacológica sea la esperada.
         .row.justify-content-center(titulo="Peso")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure

@@ -129,14 +129,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'La responsabilidad del preparador',
-      referencia:
-        'United States Pharmacopeial Convention, I. (2008). <em>USP 30. Farmacopea de los Estados Unidos de América.</em>',
-      tipo: 'PDF',
-      descarga:
-        '/downloads/Anexo1_CF022_Farmacopea_de_los_Estados_Unidos_de_América.pdf',
-    },
-    {
       tema: 'Elementos técnicos de elaboración según forma farmacéutica',
       referencia:
         'López García, B., Roig, O. y García Rebollar, C.A. (2015). <em>Ungüentos, pomadas, cremas, geles y pastas: ¿es todo lo mismo?</em>',
@@ -149,51 +141,47 @@ export default {
       referencia:
         'Resolución 444 de 2008. [Ministerio de la protección social]. Por la cual se adopta el Instrumento de Verificación de Cumplimiento de Buenas Prácticas de Elaboración de preparaciones magistrales y se dictan otras disposiciones. 12 de febrero de 2008.',
       tipo: 'Resolución',
-      descarga: '/downloads/Anexo5_CF022_Resolución_444_de_2008.pdf',
+      link: 'https://www.arlsura.com/images/stories/documentos/res444_08.pdf',
     },
     {
       tema: 'Control de calidad de preparaciones magistrales no estériles',
       referencia:
         'Red de autoridades de medicamentos de Iberoamérica. (2016). <em>Guía de buenas prácticas de elaboración y control de calidad de preparaciones magistrales y oficinales.</em>',
       tipo: 'PDF',
-      descarga:
-        '/downloads/Anexo6_CF022_Guia_de_buenas_practicas_elaboracion_control_calidad_preparaciones_magistrales_oficinales.pdf',
-    },
-    {
-      tema: 'Control de calidad de preparaciones magistrales no estériles',
-      referencia:
-        'Correa, O. de J. (s.f.). <em>Preparados magistrales y oficinales no estériles. Universidad de Antioquia.</em>',
-      tipo: 'PDF',
-      descarga: '/downloads/Anexo7_CF022_Magistrales_no_esteriles.pdf',
+      link:
+        'https://www.redeami.net/docs/docs/cooperacion/guias_formulario_iberoamericano/01_Guia_de_buenas_practicas_elaboracion_control_calidad_preparaciones_magistrales_oficinales.pdf',
     },
     {
       tema: 'Control de calidad de preparaciones magistrales no estériles',
       referencia:
         'Resolución 1403 de 2007. [Ministerio de la protección social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras Disposiciones. 14 de mayo de 2007.',
       tipo: 'Resolución',
-      descarga: '/downloads/Anexo4_CF022_Resolución_1403_de_2007.pdf',
+      link:
+        'http://autorregulacion.saludcapital.gov.co/leyes/Resolucion_1403_de_2007.pdf',
     },
     {
       tema: 'Control de calidad de preparaciones magistrales no estériles',
       referencia:
         'Decreto 1737 de 2005. [Ministerio de la protección social]. Por el cual se reglamenta la preparación, distribución, dispensación, comercialización, etiquetado, rotulado y empaque de los medicamentos homeopático magistrales y oficinales y se dictan otras disposiciones. Mayo 31 de 2005.',
       tipo: 'Decreto',
-      descarga: '/downloads/Anexo8_CF022_Decreto_1737_2005.pdf',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-1737-de-2005.pdf',
     },
     {
       tema: 'Requisitos producción de preparaciones magistrales no estériles',
       referencia:
         'Decreto 0780 de 2016. [Ministerio de salud y protección social]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. 6 de mayo de 2016.',
       tipo: 'Decreto',
-      descarga: '/downloads/Anexo3_CF022_Decreto_0780_de_2016.pdf',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
     {
       tema: 'Ensayos según formas farmacéuticas de los preparados magistrales',
       referencia:
         'Fernández, E. (2003). Control de calidad fórmulas magistrales dermatológicas. Revista farmacia profesional, vol. 17, pág. 70-75.',
       tipo: 'Documento',
-      descarga:
-        '/downloads/Anexo2_CF022_Control_de_calidad_magistrales_dermatológicos.pdf',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
   ],
   glosario: [
@@ -290,7 +278,7 @@ export default {
     },
     {
       referencia:
-        'Fernández, E. (2003) Control de calidad fórmulas magistrales dermatológicas. Revista farmacia profesional, vol. 17, pág. 70-75',
+        'Fernández, E. (2003) Control de calidad. Revista farmacia profesional, vol. 17, pág. 70-75. ',
       link:
         'https://www.elsevier.es/es-revista-farmacia-profesional-3-articulo-control-calidad-13044494',
     },
