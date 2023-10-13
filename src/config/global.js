@@ -175,14 +175,6 @@ export default {
       link:
         'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
-    {
-      tema: 'Ensayos según formas farmacéuticas de los preparados magistrales',
-      referencia:
-        'Fernández, E. (2003). Control de calidad fórmulas magistrales dermatológicas. Revista farmacia profesional, vol. 17, pág. 70-75.',
-      tipo: 'Documento',
-      link:
-        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
-    },
   ],
   glosario: [
     {
